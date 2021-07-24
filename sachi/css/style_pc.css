@@ -107,8 +107,8 @@ header
 news
 -----------------------------------------------*/
   #news {
-    padding-top: 75vh;
-    padding-bottom: 75vh;
+    padding-top: 45vh;
+    padding-bottom: 45vh;
     background-image: url("../img/news_bg.jpg"), -webkit-gradient(linear, left top, left bottom, from(#d7d2cc), to(#304352));
     background-image: url("../img/news_bg.jpg"), linear-gradient(#d7d2cc, #304352);
     background-repeat: no-repeat;
@@ -129,8 +129,8 @@ news
 about
 -----------------------------------------------*/
   #about {
-    padding-top: 75vh;
-    padding-bottom: 75vh;
+    padding-top: 45vh;
+    padding-bottom: 45vh;
     -webkit-clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 30%);
     clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
     background-image: url("../img/about-bg.jpg"), linear-gradient(125deg, #67BFD5, #F7CD39);
@@ -225,8 +225,8 @@ about
 pick-up
 -----------------------------------------------*/
   #pick-up {
-    padding-top: 75vh;
-    padding-bottom: 75vh;
+    padding-top: 45vh;
+    padding-bottom: 45vh;
     background-image: url("../img/pick-up_bg.jpg"), -webkit-gradient(linear, left top, left bottom, from(#ed6ea0), to(#ec8c69));
     background-image: url("../img/pick-up_bg.jpg"), linear-gradient(#ed6ea0, #ec8c69);
     background-repeat: no-repeat;
@@ -250,8 +250,8 @@ pick-up
 contact
 -----------------------------------------------*/
   #contact {
-    padding-top: 75vh;
-    padding-bottom: 75vh;
+    padding-top: 45vh;
+    padding-bottom: 45vh;
     background-image: url("../img/contact-bg.jpg"), -webkit-gradient(linear, left top, left bottom, from(#ca654b), to(#543221));
     background-image: url("../img/contact-bg.jpg"), linear-gradient(#ca654b, #543221);
     background-repeat: no-repeat;
