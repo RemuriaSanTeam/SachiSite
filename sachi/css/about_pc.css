@@ -4,6 +4,10 @@
   position: static;
 }
 
+.body-wrapper {
+  overflow: hidden;
+}
+
 html {
   font-size: 20px;
 }
