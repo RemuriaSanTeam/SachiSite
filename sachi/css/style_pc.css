@@ -37,8 +37,10 @@ li {
   right: 0;
   bottom: 0;
 }
-
-@media screen and (min-width: 450px) {
+.body-warpper{
+  overflow: hidden;
+}
+@media screen and (min-width: 751px) {
   .sInner {
     width: 100%;
     margin: 0px auto;
@@ -97,18 +99,13 @@ header
   .btn-menu {
     display: none;
   }
-  .slideArea {
-    width: 55vw;
-    margin: 0px auto;
-    text-align: center;
-    position: relative;
-  }
+
   /*---------------------------------------------
 news
 -----------------------------------------------*/
   #news {
-    padding-top: 45vh;
-    padding-bottom: 45vh;
+    padding-top: 30vh;
+    padding-bottom: 35vh;
     background-image: url("../img/news_bg.jpg"), -webkit-gradient(linear, left top, left bottom, from(#d7d2cc), to(#304352));
     background-image: url("../img/news_bg.jpg"), linear-gradient(#d7d2cc, #304352);
     background-repeat: no-repeat;
@@ -129,10 +126,10 @@ news
 about
 -----------------------------------------------*/
   #about {
-    padding-top: 45vh;
-    padding-bottom: 45vh;
-    -webkit-clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 30%);
-    clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+    padding-top: 30vh;
+    padding-bottom: 35vh;
+    -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 20%);
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
     background-image: url("../img/about-bg.jpg"), linear-gradient(125deg, #67BFD5, #F7CD39);
     background-repeat: no-repeat;
     background-position: center;
@@ -143,7 +140,7 @@ about
     margin-top: 20px;
   }
   .about-cont {
-    width: 60vw;
+    width: 100vw;
     margin: 0px auto;
     text-align: center;
     position: relative;
@@ -158,8 +155,6 @@ about
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
   }
   .about-thumbnail {
     margin: 10px auto;
@@ -225,8 +220,8 @@ about
 pick-up
 -----------------------------------------------*/
   #pick-up {
-    padding-top: 45vh;
-    padding-bottom: 45vh;
+    padding-top: 30vh;
+    padding-bottom: 40vh;
     background-image: url("../img/pick-up_bg.jpg"), -webkit-gradient(linear, left top, left bottom, from(#ed6ea0), to(#ec8c69));
     background-image: url("../img/pick-up_bg.jpg"), linear-gradient(#ed6ea0, #ec8c69);
     background-repeat: no-repeat;
@@ -250,22 +245,22 @@ pick-up
 contact
 -----------------------------------------------*/
   #contact {
-    padding-top: 45vh;
-    padding-bottom: 45vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     background-image: url("../img/contact-bg.jpg"), -webkit-gradient(linear, left top, left bottom, from(#ca654b), to(#543221));
     background-image: url("../img/contact-bg.jpg"), linear-gradient(#ca654b, #543221);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
-    -webkit-clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 30%);
-    clip-path: polygon(0 0, 100% 30%, 100% 100%, 0 70%);
+    -webkit-clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 20%);
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
   }
   #contact h1 {
     color: #fff;
   }
   .contact-link {
-    padding-top: 200px;
+    padding-top: 50px;
   }
   .contact-button {
     padding: 0.75em 2em;
@@ -433,7 +428,7 @@ footer
   }
 }
 
-@media screen and (max-width: 451px) {
+@media screen and (max-width: 750px) {
   .section-title {
     font-size: 35px;
   }
