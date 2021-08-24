@@ -112,8 +112,8 @@ news
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
-    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 60%, 0 100%);
-    clip-path: polygon(0 20%, 100% 0, 100% 60%, 0 100%);
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
     color: #fff;
   }
   #news .news-list {
